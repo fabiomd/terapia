@@ -1,0 +1,33 @@
+.topview {
+	width: 100%;
+	height: auto;
+}
+
+.logo {
+    /*border-radius: 8px;*/
+    padding-left: 15%;
+    float: left;
+    width: 17%;
+    height: 17%;
+}
+
+.metadata {
+	float: right;
+	padding-top: 5%;
+	padding-right: 15%;
+	color : #00B2C2;
+	font-weight: bold;
+	font-family: dymaxian;
+	font-size: 1.3em;
+}
+
+.social {
+	display: inline-block;
+	float: right;
+}
+
+.social-img {
+	width: 40px;
+	height: 40px;
+	padding: 5px 5px;
+}

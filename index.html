@@ -4,10 +4,25 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Terapia</title>
+		<link rel="stylesheet" type="text/css" href="css/body.css">
+		<link rel="stylesheet" type="text/css" href="css/container.css">
 		<link rel="stylesheet" type="text/css" href="css/topnav.css">
+		<link rel="stylesheet" type="text/css" href="css/topview.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
 	</head>
 
 	<body>
+	    <div class="topview" ng-controller = "DataCtrl">
+		    <div><img class = "logo" src="imgs/logo.jpg"></div>
+		    <div  class="metadata" ng-model = "data">
+			    <p>{{data.name}}</p>
+			    <div class = "social" ng-model = "social" ng-repeat = "social in social">
+				    <a href="{{social.link}}">
+					    <img class = "social-img" src="{{social.imgUrl}}">
+				    </a>
+			    </div>
+		    </div>
+	    </div>
 		<nav class = "topnav" ng-controller = "NavCtrl">
 		    <div ng-model = "navigation" ng-repeat = "navigation in navigation">
 		    	<a href="{{navigation.link}}"> {{navigation.name}} </a>
@@ -21,6 +36,8 @@
 		<script src="js/angular-1.6.7/angular-route.js"></script>
 		<script src="App/app.js"></script>
 		<script src="App/controllers/navigation.js"></script>
+		<script src="App/controllers/data.js"></script>
+		<script src="App/controllers/home.js"></script>
 	</body>
 
 </html>
