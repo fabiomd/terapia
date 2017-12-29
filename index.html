@@ -2,16 +2,25 @@
 <html ng-app="app">
 
 	<head>
-		<title></title>
+		<meta charset="utf-8"/>
+		<title>Terapia</title>
+		<link rel="stylesheet" type="text/css" href="css/topnav.css">
 	</head>
 
 	<body>
+		<nav class = "topnav" ng-controller = "NavCtrl">
+		    <div ng-model = "navigation" ng-repeat = "navigation in navigation">
+		    	<a href="{{navigation.link}}"> {{navigation.name}} </a>
+		    </div>
+		</nav>
 		<ng-view></ng-view>
 
 
 		<script src="js/jquery/jquery-3.2.1.js"></script>
 		<script src="js/angular-1.6.7/angular.js"></script>
+		<script src="js/angular-1.6.7/angular-route.js"></script>
 		<script src="App/app.js"></script>
+		<script src="App/controllers/navigation.js"></script>
 	</body>
 
 </html>
