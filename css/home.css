@@ -87,10 +87,11 @@
 
 .homeDivTwo {
 	/*background-color: yellow;*/
-	width: 100%;
+	width: 60%;
 	height: 600px;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 30%;
 	display: inline-block;
 }
 
@@ -99,8 +100,8 @@
 	/*background-color: green;*/
 	width: 40%;
 	height: 30px;
-	padding-left: 5%;
-	padding-right: 10%;
+	/*padding-left: 5%;*/
+	/*padding-right: 10%;*/
 }
 
 .homeDivSubThree {
@@ -108,8 +109,8 @@
 	/*background-color: brown;*/
 	width: 40%;
 	height: 30px;
-	padding-left: 5%;
-	padding-right: 10%;
+	/*padding-left: 5%;*/
+	/*padding-right: 10%;*/
 }
 
 
