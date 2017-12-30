@@ -7,6 +7,10 @@ angular.module('app').controller('NavCtrl',['$scope',function($scope){
 		{
 			name : 'Content',
 			link : '/content'
+		},
+		{
+			name : 'Gallery',
+			link : '/gallery'
 		}
 	];
 }]);

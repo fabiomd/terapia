@@ -15,9 +15,13 @@
 	float: right;
 	padding-top: 5%;
 	padding-right: 15%;
+}
+
+.metadata p{
+	text-align-last: right;
 	color : #00B2C2;
 	font-weight: bold;
-	font-family: dymaxian;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 1.3em;
 }
 

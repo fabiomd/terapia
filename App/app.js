@@ -1,12 +1,17 @@
 // Created by : Fábio Moreira Duarte
 // Date : 12/29/2017
 
-angular.module('app',['ngRoute']).config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider){
+// ['ngAnimate', 'ngTouch']
+
+angular.module('app',['ngRoute','ngTouch','ngAnimate']).config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider){
 	$routeProvider.when('/',{
 		controller : 'HomeCtrl',
 		templateUrl : 'App/templates/home.html'
 	}).when('/content',{
 		templateUrl : 'App/templates/content.html'
+	}).when('/gallery',{
+		controller : 'GalleryCtrl',
+		templateUrl : 'App/templates/gallery.html'
 	}).otherwise({
 		templateUrl : '/'
 	});
