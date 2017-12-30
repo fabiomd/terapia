@@ -39,12 +39,14 @@
 angular.module('app').controller('GalleryCtrl', ['$scope',function ($scope) {
 	    // Set of Photos
 	    $scope.photos = [
-	        {src: 'imgs/background1.jpg', desc: 'Image 01'},
-	        {src: 'imgs/facebookIcon.png', desc: 'Image 02'},
-	        {src: 'imgs/instagranIcon.png', desc: 'Image 03'},
-	        {src: 'imgs/logo.jpg', desc: 'Image 04'},
-	        {src: 'imgs/super.png', desc: 'Image 05'},
-	        {src: 'imgs/leftArrow.png', desc: 'Image 06'}
+	        {src: 'imgs/gallery/img1.jpeg', desc: 'Image 01'},
+	        {src: 'imgs/gallery/img2.jpeg', desc: 'Image 02'},
+	        {src: 'imgs/gallery/img3.jpeg', desc: 'Image 03'},
+	        {src: 'imgs/gallery/img4.jpeg', desc: 'Image 04'},
+	        {src: 'imgs/gallery/img5.jpeg', desc: 'Image 05'},
+	        {src: 'imgs/gallery/img6.jpeg', desc: 'Image 06'},
+	        {src: 'imgs/gallery/img7.jpeg', desc: 'Image 07'},
+	        {src: 'imgs/gallery/img8.jpeg', desc: 'Image 08'}
 	    ];
 
 	    // initial image index
