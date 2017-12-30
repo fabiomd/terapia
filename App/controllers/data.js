@@ -5,12 +5,12 @@ angular.module('app').controller('DataCtrl',['$scope','$window',function($scope,
 		};
 	$scope.social = [
 		{
-			imgUrl : 'imgs/instagranIcon.png',
-			link : 'https://www.instagram.com/terapiapsicologia'
-		},
-		{
 			imgUrl : 'imgs/facebookIcon.png',
 			link : 'https://www.facebook.com/terapiaclinicapsico'
 		},
+		{
+			imgUrl : 'imgs/instagranIcon.png',
+			link : 'https://www.instagram.com/terapiapsicologia'
+		}
 	];
 }]);

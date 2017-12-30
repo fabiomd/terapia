@@ -6,13 +6,45 @@
 
 .homeDivOne {
 	/*background-color: #2E4DB2;*/
-	background: url(../imgs/background1.jpg);
-	/*width: 100%;
-	height: 400px;*/
+	/*background: url(../imgs/background1.jpg);*/
+	/*background-size: 100% 100%;*/
+	/*background: blue;*/
+	width: 100%;
+	height: 400px;
+	/*opacity: .6;*/
 	padding-right:0;
     padding-left:0;
     margin-right:auto;
     margin-left:auto;
+    /*z-index: 4;*/
+}
+
+.homeDivOneImg {
+	/*background: red;*/
+	/*background: url(../imgs/logo.jpg);*/
+	/*width: 100%;
+	height: 400px;*/
+	/*opacity: 1;*/
+	padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+    /*z-index: 99;*/
+}
+
+#wrapper {
+	background: url(../imgs/background1.jpg);
+	background-size: 100% 100%;
+    z-index:1;
+    opacity:1;
+}
+#contentOrWhatever {
+	/*background: red;*/
+	/*background: url(../imgs/background2.jpg);*/
+	background-color: #1E00B3;
+	/*background-size: 100% 100%;*/
+    z-index:99;
+    opacity:.6;
 }
 
 .container-fluid {
@@ -24,15 +56,25 @@
 
 .homeDivSubOne {
 	margin: 0;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
 	padding-top: 5%;
-	width: 90%;
+	width: 60%;
 	height: 300px;
 }
 
-.homeDivSubOneFont {
+.homeDivSubOne h1 {
 	color: white;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	/*font-size: 1.3em;*/
+	text-align: left;
+}
+
+.homeDivSubOne p {
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.3em;
+	text-align: left;
 }
 
 .homeDivTwo p {

@@ -1,11 +1,24 @@
 <section id="container-fluid">
     <div class="home">
-	    <div class="homeDivOne" ng-model = "about">
-	        <div class="homeDivSubOne">
+	    <div id="wrapper">
+		    <div id="contentOrWhatever">
+			    <div class="homeDivOne" ng-model = "about">
+			        <div class="homeDivSubOne">
+			            <h1>{{about.title}}</h1>
+					    <p>{{about.content}}</p>
+				    </div>
+			    </div>
+		    </div>
+		    <!-- <div id="contentOrWhatever">
+			    <div class="homeDivOneImg"></div>
+		    </div> -->
+	    </div>
+	    <!-- <div class="homeDivOneImg">
+	    	<div class="homeDivSubOne">
 	            <h1 class="homeDivSubOneFont">{{about.title}}</h1>
 			    <p class="homeDivSubOneFont">{{about.content}}</p>
 		    </div>
-	    </div>
+	    </div> -->
 	    <div class="homeDivTwo">
 	        <div class="homeDivSubThree" ng-model = "about2">
             	<h1>{{about2.title}}</h1>

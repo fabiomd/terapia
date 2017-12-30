@@ -1,13 +1,18 @@
+.gallery {
+    width: 100%;
+    padding-bottom: 20%;
+}
+
 .arrow {
-	    cursor: pointer;
-	    display: block;
-	    height: 64px;
-	    margin-top: -35px;
-	    outline: medium none;
-	    position: absolute;
-	    top: 50%;
-	    width: 64px;
-	    z-index: 5;
+    cursor: pointer;
+    display: block;
+    height: 64px;
+    margin-top: -35px;
+    outline: medium none;
+    position: absolute;
+    top: 50%;
+    width: 64px;
+    z-index: 5;
 }
 
 .galleryphoto {
@@ -55,7 +60,7 @@
     height: 60%;
     padding-right: 20%;
     padding-left: 20%;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .nav li {
@@ -65,7 +70,7 @@
     display: inline-block;
     height: 30px;
     margin: 0 8px;
-    position: relative;
+    /*position: relative;*/
     width: 50px;
 }
 .nav li.active {
@@ -78,11 +83,11 @@
 }
 
 .slider {
-    border: 3px solid #FFFFFF;
-    border-radius: 5px;
-    height: 500px;
+    border: 2px solid #FFFFFF;
+    border-radius: 1px;
+    height: 800px;
     margin: 20px auto;
-    position: relative;
+    /*position: relative;*/
     width: 900px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
@@ -97,7 +102,7 @@
 }
 
 .slide {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
 }

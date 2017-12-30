@@ -8,15 +8,14 @@
 		<link rel="stylesheet" type="text/css" href="css/container.css">
 		<link rel="stylesheet" type="text/css" href="css/topnav.css">
 		<link rel="stylesheet" type="text/css" href="css/topview.css">
+		<link rel="stylesheet" type="text/css" href="css/bottonview.css">
 		<link rel="stylesheet" type="text/css" href="css/home.css">
 		<link rel="stylesheet" type="text/css" href="css/gallery.css">
-<!-- 		<link href="/node_modules/angular-super-gallery/dist/angular-super-gallery.css" rel="stylesheet" type="text/css"/> -->
-	</head>
-
 	<body>
+		<header>
 	    <div class="topview" ng-controller = "DataCtrl">
 		    <div><img class = "logo" src="imgs/logo.jpg"></div>
-		    <div  class="metadata" ng-model = "data">
+		    <!-- <div  class="metadata" ng-model = "data">
 			    <p>{{data.name}}</p>
 			    <p>CRP: {{data.crp}}</p>
 			    <div class = "social" ng-model = "social" ng-repeat = "social in social">
@@ -24,14 +23,35 @@
 					    <img class = "social-img" src="{{social.imgUrl}}">
 				    </a>
 			    </div>
-		    </div>
+		    </div> -->
 	    </div>
+	    </header>
 		<nav class = "topnav" ng-controller = "NavCtrl">
 		    <div ng-model = "navigation" ng-repeat = "navigation in navigation">
 		    	<a href="{{navigation.link}}"> {{navigation.name}} </a>
 		    </div>
 		</nav>
+        
+        <!-- <main flex> -->
 		<ng-view></ng-view>
+		<!-- </main> -->
+
+        <footer>
+			<div class="bottonview" ng-controller = "DataCtrl">
+			    <div  class="metadata" ng-model = "data">
+				    <p>{{data.name}}</p>
+				    <!-- <p>CRP: {{data.crp}}</p> -->
+				    <div class="socialback">
+					    <p>Contato</p>
+					    <div class = "social" ng-model = "social" ng-repeat = "social in social">
+						    <a href="{{social.link}}">
+							    <img class = "social-img" src="{{social.imgUrl}}">
+						    </a>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+	    </footer>
 
 
 		<script src="js/jquery/jquery-3.2.1.js"></script>
@@ -44,7 +64,6 @@
 		<script src="App/controllers/data.js"></script>
 		<script src="App/controllers/home.js"></script>
 		<script src="App/controllers/gallery.js"></script>
-		<!-- <script src="node_modules/angular-super-gallery/dist/angular-super-gallery.js"></script> -->
 	</body>
 
 </html>
