@@ -1,5 +1,6 @@
 angular.module('app').controller('HomeCtrl',['$scope',function($scope){
 	$scope.about = {
+			img : "imgs/psychologist.png",
 			title : "Primeiros passos",
 			content : "Para iniciar o seu processo de mudança, tem de ganhar consciência de um conjunto de coisas. Primeiro que tudo, pergunte a si próprio: O que é que eu quero mudar e porquê? Se não tem uma ideia clara do que pretende mudar ou melhorar, nunca saberá onde está, ou onde não está a ter progressos. É muito importante, mas por vezes difícil saber exactamente aquilo que pretende mudar e como é que a sua vida irá ficar depois de ter feito a pretendida mudança"
 	};

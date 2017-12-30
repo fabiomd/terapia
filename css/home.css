@@ -19,6 +19,24 @@
     /*z-index: 4;*/
 }
 
+.homeDivOne img {
+	float : right;
+	/*background-color: #2E4DB2;*/
+	/*background: url(../imgs/background1.jpg);*/
+	/*background-size: 100% 100%;*/
+	/*background: blue;*/
+	width: 30%;
+	height: 30%;
+	/*opacity: .6;*/
+/*	padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;*/
+    /*z-index: 4;*/
+    padding-right: 5%;
+	padding-top: 20%;
+}
+
 .homeDivOneImg {
 	/*background: red;*/
 	/*background: url(../imgs/logo.jpg);*/
@@ -57,9 +75,10 @@
 .homeDivSubOne {
 	margin: 0;
 	padding-left: 15%;
-	padding-right: 15%;
+	/*padding-right: 15%;*/
 	padding-top: 5%;
-	width: 60%;
+	width: 45%;
+	float : left;
 	height: 300px;
 }
 
